@@ -10,4 +10,3 @@ function logShout(string) {
 function logWhisper(string) {
   return console.log(whisper(string))
 }
-
