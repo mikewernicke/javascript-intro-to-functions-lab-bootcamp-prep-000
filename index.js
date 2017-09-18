@@ -1,4 +1,4 @@
-function doNothing()
+function doNothing() {}
 function shout(string) {
   return string.toUpperCase()
 }
