@@ -1,3 +1,5 @@
+var string = "Hello"
+
 function doNothing() {}
 function shout(string) {
   return string.toUpperCase()
