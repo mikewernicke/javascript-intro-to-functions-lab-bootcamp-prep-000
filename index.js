@@ -12,9 +12,11 @@ function logWhisper(string) {
 }
 function sayHiToGrandma(string) {
   if(logShout(string) === shout(string)
-  return`YES INDEED`
+    return`YES INDEED`
   elseif (logWhisper(string) === whisper(string)
-return `I can't hear you!'
-elseif (string = "I love you, Grandma.")
-  return console.log("I love you too.")
+    return `I can't hear you!'
+  elseif (string = "I love you, Grandma.")
+    return console.log("I love you too.")
+  else
+    return ""
 }
