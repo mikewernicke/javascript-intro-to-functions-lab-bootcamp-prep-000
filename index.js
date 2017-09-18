@@ -24,5 +24,4 @@ function sayHiToGrandma(string) {
   elseif(string === "I love you, Grandma.")
     return console.log("I love you too.")
   }
-  }
 }
