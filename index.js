@@ -18,3 +18,4 @@ function sayHiToGrandma(string) {
      return console.log("I can't hear you!")
   } elseif(console.Log(string) === "I love you, Grandma.")
       console.log("I love you too.")
+}
