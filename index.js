@@ -17,5 +17,5 @@ function sayHiToGrandma(string) {
   } elseif (console.Log(string) === whisper(string))
      return console.log("I can't hear you!")
   } elseif(console.Log(string) === "I love you, Grandma.")
-      return console.log("I love you too.")
+      console.log("I love you too.")
 }
