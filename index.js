@@ -20,6 +20,6 @@ function sayHiToGrandma(string) {
   elseif(string === whisper(string))
     return console.log("I can't hear you!")
   elseif(string === "I love you, Grandma.")
-    return console.log"I love you too."
+    return console.log("I love you too.")
   }
 }
