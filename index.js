@@ -1,4 +1,5 @@
 var string = "Hello"
+var response = "What?"
 
 function doNothing() {}
 function shout(string) {
@@ -16,11 +17,11 @@ function logWhisper(string) {
 function sayHiToGrandma(string) {
   {
   if(string === shout(string))
-    return console.log("YES INDEED!")
+    return response = "YES INDEED!"
    else if(string === whisper(string))
-    return console.log("I can't hear you!")
+    return response = "I can't hear you!"
   else if(string === "I love you, Grandma.")
-  return console.log("I love you too.")
+  return response = "I love you too."
   else doNothing()
   }
 }
